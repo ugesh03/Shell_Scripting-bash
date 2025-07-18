@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # updating the package
-yum update
+yum update -y
 
 # Install JDK-version=21 // yum install java-21-openjdk
-yum install java-21-*
+yum install java-21-* -y
 
 # install wget
 yum install wget -y

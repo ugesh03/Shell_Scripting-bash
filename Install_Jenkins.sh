@@ -21,3 +21,5 @@ sudo yum install jenkins -y
 # Enable and start the Jenkins service:
 systemctl enable jenkins
 systemctl start jenkins
+
+# Ensure Jenkins installed successfull and status

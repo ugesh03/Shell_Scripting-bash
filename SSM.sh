@@ -12,8 +12,8 @@
 sudo dnf install -y https://s3.us-east-2.amazonaws.com/amazon-ssm-us-east-2/latest/linux_amd64/amazon-ssm-agent.rpm  // US-East-1(region)
 
 # start the SSM agent in machine
-sudo systemctl start amazon-ssm-agent
 sudo systemctl enable amazon-ssm-agent
+sudo systemctl start amazon-ssm-agent
 
 #to check the status of the SSM-agent
 sudo systemctl status amazon-ssm-agent
